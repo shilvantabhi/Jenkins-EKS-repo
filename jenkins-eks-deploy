@@ -3,8 +3,8 @@ pipeline {
     agent any
 
     environment {
-        AWS_DEFAULT_REGION = 'us-east-1'
-        CLUSTER_NAME = 'acecloud-devops-use1-eks-cluster'
+        AWS_DEFAULT_REGION = 'ap-south-1'
+        CLUSTER_NAME = 'eks-demo'
     }
 
     stages {
